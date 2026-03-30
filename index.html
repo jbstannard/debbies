@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debbie's — Everyone Needs a Debbie</title>
+  <meta name="description" content="Warm, reliable weekly companionship for elderly people in Leeds. DBS checked, insured companions from £25/hr. Because no one should feel alone.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://findadebbie.co.uk/">
+  <meta property="og:title" content="Debbie's — Companionship for Your Loved One in Leeds">
+  <meta property="og:description" content="Warm, reliable weekly visits for elderly people who need a friend. DBS checked, insured, from £25/hr.">
+  <meta property="og:image" content="https://findadebbie.co.uk/assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Playwrite+GB+S&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════
+       HEADER / NAVIGATION
+       ════════════════════════════════════════════ -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#" class="brand" aria-label="Debbie's — home">
+        <span class="brand-name">Debbie's</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+        <ul id="nav-menu" class="nav-list">
+          <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+          <li><a href="#our-story" class="nav-link">Our Story</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#enquiry" class="nav-cta">Find your Debbie &rarr;</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Scroll sentinel for header background -->
+  <div class="header-sentinel" id="header-sentinel"></div>
+
+  <!-- ════════════════════════════════════════════
+       HERO SECTION
+       ════════════════════════════════════════════ -->
+  <section class="section section--hero" id="hero">
+    <!-- Warm radial glows -->
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-glow hero-glow--secondary" aria-hidden="true"></div>
+
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-eyebrow-group reveal" data-reveal="slide-left" data-delay="300">
+          <span class="hero-eyebrow-rule" aria-hidden="true"></span>
+          <span class="eyebrow hero-eyebrow">Companionship in Leeds</span>
+        </div>
+        <h1 class="hero-headline">
+          <span class="reveal" data-reveal="rise" data-delay="500">Everyone needs a</span>
+          <span class="hero-debbie reveal" data-reveal="scale" data-delay="800">Debbie</span>
+        </h1>
+        <p class="hero-sub reveal" data-reveal="fade" data-delay="1200">A warm, trusted companion for your mum or dad. Weekly visits. Real connection. Peace of mind for the whole family.</p>
+        <div class="hero-actions reveal" data-reveal="rise" data-delay="1500">
+          <a href="#enquiry" class="btn btn--primary btn--lg">Find your Debbie &rarr;</a>
+        </div>
+        <div class="hero-trust reveal" data-reveal="fade" data-delay="1800">
+          <span class="trust-chip"><svg class="trust-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13.5 4.5L6 12L2.5 8.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> DBS Checked</span>
+          <span class="trust-chip trust-chip--sep" aria-hidden="true"></span>
+          <span class="trust-chip"><svg class="trust-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13.5 4.5L6 12L2.5 8.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Fully Insured</span>
+          <span class="trust-chip trust-chip--sep" aria-hidden="true"></span>
+          <span class="trust-chip"><svg class="trust-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13.5 4.5L6 12L2.5 8.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> From &pound;25/hr</span>
+        </div>
+      </div>
+
+      <div class="hero-image reveal" data-reveal="scale" data-delay="900">
+        <div class="photo-frame photo-frame--hero">
+          <img
+            src="https://images.pexels.com/photos/6929476/pexels-photo-6929476.jpeg?auto=compress&cs=tinysrgb&w=1600&fit=max"
+            alt="A younger companion sharing a warm moment with an older woman over tea — exactly what Debbie's provides"
+            loading="eager"
+          >
+          <div class="photo-frame-border" aria-hidden="true"></div>
+        </div>
+
+        <!-- Floating pip — plants on a sunlit windowsill -->
+        <div class="hero-pip reveal" data-reveal="rise" data-delay="1600" aria-hidden="true">
+          <img
+            src="https://kaboompics.com/cache_1/3/c/9/8/4/3c984f12e09088ab33567adf10af7644e30706c9.jpeg"
+            alt=""
+            loading="lazy"
+          >
+        </div>
+
+        <!-- Floating quote chip -->
+        <div class="hero-quote-chip reveal" data-reveal="fade" data-delay="2000" aria-hidden="true">
+          <p class="hero-quote-text">&ldquo;Mum lights up when she visits.&rdquo;</p>
+          <span class="hero-quote-attr">— Leeds family, 2025</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Organic section divider -->
+    <div class="divider divider--organic" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" class="divider-svg">
+        <path d="M0,45 C120,70 240,20 360,50 C480,78 600,25 720,48 C840,72 960,30 1080,52 C1200,75 1320,35 1440,55 L1440,80 L0,80 Z" fill="var(--color-cream-warm)"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       PROBLEM SECTION
+       ════════════════════════════════════════════ -->
+  <section class="section section--problem" id="problem">
+    <!-- Decorative flora — spring flowers, top right -->
+    <div class="section-flora section-flora--problem" aria-hidden="true">
+      <img src="https://kaboompics.com/cache_1/1/c/f/f/6/1cff687126f205fd71f2cd9350735dbce721d7fd.jpeg" alt="" loading="lazy">
+    </div>
+
+    <div class="container container--narrow">
+      <h2 class="section-heading reveal" data-reveal="rise">You can't always be there. <em class="text-accent">We can.</em></h2>
+      <div class="problem-text reveal" data-reveal="rise" data-delay="200">
+        <p>You phone when you can. You visit when life allows. But in between, you wonder &mdash; is Mum okay? Is Dad lonely? Is anyone checking in?</p>
+        <p>You're not looking for a carer. You're looking for a <strong>friend</strong>.</p>
+        <p>Someone who'll pop round for a cup of tea, a chat about Countdown, a walk to the post office. Someone warm, kind, and <em>consistent</em>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       HOW IT WORKS SECTION
+       ════════════════════════════════════════════ -->
+  <section class="section section--how" id="how-it-works">
+    <div class="container">
+      <span class="eyebrow reveal" data-reveal="fade">How It Works</span>
+      <h2 class="section-heading reveal" data-reveal="rise">Three simple steps to<br>regular, warm companionship.</h2>
+
+      <div class="steps-diagonal">
+        <!-- Step 1 -->
+        <div class="step step--1 reveal" data-reveal="slide-left" data-delay="0">
+          <span class="step-number" aria-hidden="true">1</span>
+          <div class="step-content">
+            <h3 class="step-title">You tell us about your parent</h3>
+            <p>Their interests, their personality, where they live. We listen carefully &mdash; because the right match changes everything.</p>
+          </div>
+          <!-- Step icon: two people -->
+          <svg class="step-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="24" cy="20" r="8" stroke="var(--color-terracotta)" stroke-width="2"/>
+            <path d="M8,52 C8,40 16,32 24,32 C32,32 40,40 40,52" stroke="var(--color-terracotta)" stroke-width="2" fill="none"/>
+            <circle cx="44" cy="22" r="6" stroke="var(--color-terracotta)" stroke-width="2"/>
+            <path d="M34,52 C34,42 38,36 44,36 C50,36 54,42 54,52" stroke="var(--color-terracotta)" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+
+        <!-- Hand-drawn connecting line -->
+        <svg class="step-connector step-connector--1-2" viewBox="0 0 200 120" fill="none" aria-hidden="true">
+          <path d="M10,10 C50,15 70,60 100,65 C130,70 160,100 190,110" stroke="var(--color-terracotta)" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.25"/>
+        </svg>
+
+        <!-- Step 2 -->
+        <div class="step step--2 reveal" data-reveal="rise" data-delay="200">
+          <span class="step-number" aria-hidden="true">2</span>
+          <!-- Warm scene photo -->
+          <div class="step-photo" aria-hidden="true">
+            <img src="https://kaboompics.com/cache_1/6/d/5/7/a/6d57ac832c49c7249bd3b55d858b8fdb37fbdc7f.jpeg" alt="" loading="lazy">
+          </div>
+          <div class="step-content">
+            <h3 class="step-title">We find them a companion</h3>
+            <p>A warm, DBS-checked visitor matched to your loved one. Same person, same time each week &mdash; someone to look forward to.</p>
+          </div>
+          <!-- Step icon: teacup -->
+          <svg class="step-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M12,28 L12,48 C12,52 16,56 24,56 L36,56 C44,56 48,52 48,48 L48,28 Z" stroke="var(--color-terracotta)" stroke-width="2" fill="none"/>
+            <path d="M48,32 C52,32 56,34 56,40 C56,46 52,48 48,48" stroke="var(--color-terracotta)" stroke-width="2" fill="none"/>
+            <path d="M22,20 C22,14 26,12 28,16" stroke="var(--color-terracotta)" stroke-width="1.5" fill="none" opacity="0.5"/>
+            <path d="M30,18 C30,12 34,10 36,14" stroke="var(--color-terracotta)" stroke-width="1.5" fill="none" opacity="0.5"/>
+          </svg>
+        </div>
+
+        <!-- Hand-drawn connecting line -->
+        <svg class="step-connector step-connector--2-3" viewBox="0 0 200 120" fill="none" aria-hidden="true">
+          <path d="M10,10 C40,20 80,70 110,75 C140,80 170,105 190,110" stroke="var(--color-terracotta)" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.25"/>
+        </svg>
+
+        <!-- Step 3 -->
+        <div class="step step--3 reveal" data-reveal="slide-right" data-delay="400">
+          <span class="step-number" aria-hidden="true">3</span>
+          <div class="step-content">
+            <h3 class="step-title">They become friends</h3>
+            <p>After every visit, you get a warm update. What they did, how they seemed, any moments worth sharing. Peace of mind, every single week.</p>
+          </div>
+          <!-- Step icon: heart/message -->
+          <svg class="step-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <rect x="8" y="16" width="48" height="36" rx="4" stroke="var(--color-terracotta)" stroke-width="2" fill="none"/>
+            <path d="M8,20 L32,40 L56,20" stroke="var(--color-terracotta)" stroke-width="2" fill="none"/>
+            <path d="M28,34 C28,30 32,28 32,28 C32,28 36,30 36,34 C36,38 32,42 32,42 C32,42 28,38 28,34Z" fill="var(--color-terracotta)" opacity="0.3"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       MEET DEBBIE / STORY SECTION
+       ════════════════════════════════════════════ -->
+  <section class="section section--story" id="our-story">
+    <!-- Decorative watermark -->
+    <div class="watermark" aria-hidden="true">presence</div>
+
+    <div class="container">
+      <div class="story-layout">
+        <div class="story-image reveal" data-reveal="slide-left">
+          <div class="photo-frame photo-frame--portrait">
+            <img
+              src="https://kaboompics.com/cache_1/7/5/9/4/c/7594cba538a48deddb019359283885a3e67f0d48.jpeg"
+              alt="Debbie — the warm, genuine companion our service is built around"
+              loading="lazy"
+            >
+            <div class="photo-frame-border" aria-hidden="true"></div>
+          </div>
+          <!-- Small floating floral accent beside the portrait -->
+          <div class="story-flora" aria-hidden="true">
+            <img src="https://kaboompics.com/cache_1/d/9/6/a/a/d96aa53c5b7f502cdb37038e7bc0ecce681f1d50.jpeg" alt="" loading="lazy">
+          </div>
+        </div>
+
+        <div class="story-text reveal" data-reveal="slide-right" data-delay="100">
+          <span class="eyebrow eyebrow--sage">Our Story</span>
+          <h2 class="section-heading">It started with one Debbie.</h2>
+          <p class="lead">Our founder's mum Debbie spent 13 years as a professional companion at a Leeds charity called Caring for Life. She's the reason this exists.</p>
+          <p>She was warm, patient, present, and genuinely gifted at making people feel loved. She could make anyone feel like the most important person in the room.</p>
+          <p>Every companion we recruit is held to her standard. When you book through us, you're getting someone just like her.</p>
+          <p class="story-signoff">&mdash; <strong>Josh</strong>, Founder</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       FAITH SECTION
+       ════════════════════════════════════════════ -->
+  <section class="section section--faith" id="faith">
+    <!-- Botanical decoration — monstera in warm gold pot -->
+    <div class="section-flora section-flora--faith" aria-hidden="true">
+      <img src="https://kaboompics.com/cache_1/d/9/6/a/a/d96aa53c5b7f502cdb37038e7bc0ecce681f1d50.jpeg" alt="" loading="lazy">
+    </div>
+
+    <div class="container container--narrow">
+      <h2 class="section-heading reveal" data-reveal="rise">Rooted in something deeper.</h2>
+      <div class="faith-text reveal" data-reveal="rise" data-delay="200">
+        <p>We're a faith-rooted company. Christian values are at the heart of everything we do &mdash; dignity, love, presence, service.</p>
+        <p>Some clients enjoy a quiet prayer at the end of a visit. It's always offered, never assumed.</p>
+        <p class="faith-welcome"><em>Everyone is welcome. Always.</em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       PRICING SECTION
+       ════════════════════════════════════════════ -->
+  <section class="section section--pricing" id="pricing">
+    <div class="container">
+      <span class="eyebrow reveal" data-reveal="fade">Pricing</span>
+      <h2 class="section-heading reveal" data-reveal="rise">Simple, honest pricing.</h2>
+
+      <div class="pricing-layout">
+        <div class="pricing-details reveal" data-reveal="slide-left">
+          <p class="lead">No hidden fees. No long contracts. Just companionship when your loved one needs it.</p>
+          <ul class="pricing-list">
+            <li>One two-hour visit per week &mdash; <strong>&pound;50/week</strong></li>
+            <li>Two visits per week &mdash; <strong>&pound;100/week</strong></li>
+            <li>DBS-checked, insured companions</li>
+            <li>Weekly visit note after every session</li>
+            <li>Matched to personality &amp; interests</li>
+            <li>Pause or cancel anytime with two weeks' notice</li>
+          </ul>
+        </div>
+
+        <div class="pricing-price reveal" data-reveal="slide-right" data-delay="100">
+          <div class="price-display">
+            <span class="price-currency">&pound;</span>
+            <span class="price-amount">25</span>
+            <span class="price-unit">/hour</span>
+          </div>
+          <p class="price-context">Less than a TV licence per week for something that genuinely changes your parent's quality of life.</p>
+          <!-- Hand-drawn arrow SVG -->
+          <svg class="price-arrow" viewBox="0 0 80 60" fill="none" aria-hidden="true">
+            <path d="M10,10 C20,15 40,35 50,42 C55,46 65,50 70,48" stroke="var(--color-terracotta)" stroke-width="1.5" fill="none"/>
+            <path d="M62,42 L70,48 L64,54" stroke="var(--color-terracotta)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+          </svg>
+          <a href="#enquiry" class="btn btn--primary btn--lg">Find your Debbie &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       THE LETTER — THE UNFORGETTABLE THING
+       ════════════════════════════════════════════ -->
+  <div class="letter-wrapper" aria-hidden="true">
+    <div class="the-letter reveal" data-reveal="letter">
+      <p class="letter-text">
+        Dear Mum,<br><br>
+        I found someone lovely.<br>
+        Her name's Debbie.<br>
+        I think you're going to be<br>
+        great friends.<br><br>
+        Love, me x
+      </p>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       ENQUIRY FORM (DARK SECTION)
+       ════════════════════════════════════════════ -->
+  <section class="section section--enquiry" id="enquiry">
+    <!-- Watermark behind form -->
+    <div class="form-watermark" aria-hidden="true">a beautiful friendship</div>
+
+    <div class="container container--form">
+      <h2 class="section-heading section-heading--light reveal" data-reveal="rise">Let's find your Debbie.</h2>
+      <p class="section-sub section-sub--light reveal" data-reveal="fade" data-delay="200">Tell us a little about your situation and we'll be in touch within 24 hours.</p>
+
+      <form class="enquiry-form" id="enquiry-form" action="https://formspree.io/f/FORM_ID" method="POST" novalidate>
+        <div class="form-group reveal" data-reveal="rise" data-delay="300">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name" class="form-input">
+          <span class="form-error" aria-live="polite"></span>
+        </div>
+
+        <div class="form-group reveal" data-reveal="rise" data-delay="400">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required autocomplete="tel" class="form-input">
+          <span class="form-error" aria-live="polite"></span>
+        </div>
+
+        <div class="form-group reveal" data-reveal="rise" data-delay="500">
+          <label for="loved-one" class="form-label">Your Loved One's First Name</label>
+          <input type="text" id="loved-one" name="loved_one_name" required class="form-input">
+          <span class="form-error" aria-live="polite"></span>
+        </div>
+
+        <div class="form-group reveal" data-reveal="rise" data-delay="600">
+          <label for="location" class="form-label">Their Town or Postcode</label>
+          <input type="text" id="location" name="location" required autocomplete="postal-code" class="form-input" placeholder="e.g. Headingley, LS6">
+          <span class="form-error" aria-live="polite"></span>
+        </div>
+
+        <div class="form-group reveal" data-reveal="rise" data-delay="700">
+          <label for="message" class="form-label">Tell Us a Bit About Your Situation</label>
+          <textarea id="message" name="message" rows="4" class="form-input form-textarea"></textarea>
+        </div>
+
+        <!-- Honeypot -->
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+        <button type="submit" class="btn btn--primary btn--lg btn--full reveal" data-reveal="rise" data-delay="800" id="submit-btn">
+          <span class="btn-text">Find your Debbie &rarr;</span>
+          <span class="btn-loading" aria-hidden="true">
+            <svg class="spinner" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="32" stroke-dashoffset="32">
+                <animate attributeName="stroke-dashoffset" values="32;0;32" dur="1.5s" repeatCount="indefinite"/>
+                <animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="1s" repeatCount="indefinite"/>
+              </circle>
+            </svg>
+          </span>
+        </button>
+      </form>
+
+      <p class="form-reassurance reveal" data-reveal="fade" data-delay="900">We'll call (not email) &mdash; usually within a few hours. No pressure, just a friendly chat.</p>
+
+      <!-- Success message (hidden by default) -->
+      <div class="form-success" id="form-success" hidden>
+        <svg class="success-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" stroke="var(--color-sage)" stroke-width="2"/>
+          <path d="M14 24L22 32L34 18" stroke="var(--color-sage)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <h3 class="success-heading">Thank you.</h3>
+        <p class="success-text">We'll be in touch about <span id="success-name">your loved one</span> very soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       FOOTER
+       ════════════════════════════════════════════ -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-trust">
+        <span class="footer-badge">DBS Checked</span>
+        <span class="footer-badge">Fully Insured</span>
+        <span class="footer-badge">Safeguarding Trained</span>
+        <span class="footer-badge">Faith-Rooted</span>
+        <span class="footer-badge">Leeds &amp; West Yorkshire</span>
+      </div>
+
+      <div class="footer-brand">
+        <span class="brand-name">Debbie's</span>
+        <p class="footer-tagline">Everyone needs a Debbie.</p>
+      </div>
+
+      <div class="footer-contact">
+        <a href="mailto:hello@findadebbie.co.uk" class="footer-link">hello@findadebbie.co.uk</a>
+      </div>
+
+      <p class="footer-legal">&copy; 2026 Debbie's Companionship Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
