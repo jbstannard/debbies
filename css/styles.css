@@ -949,8 +949,8 @@ em {
 }
 
 .photo-frame--portrait {
-  width: clamp(260px, 28vw, 400px);
-  height: clamp(325px, 35vw, 500px);
+  width: clamp(220px, 22vw, 340px);
+  height: clamp(275px, 28vw, 425px);
 }
 
 .photo-frame--portrait img {
@@ -1564,9 +1564,9 @@ em {
     left: 58%;
   }
 
-  /* Story: 2-column */
+  /* Story: 2-column — image smaller, text breathes */
   .story-layout {
-    grid-template-columns: 0.45fr 0.55fr;
+    grid-template-columns: 0.38fr 0.62fr;
     gap: 4rem;
   }
 
@@ -1624,7 +1624,7 @@ em {
 
   /* Story layout breathing room */
   .story-layout {
-    gap: 6rem;
+    gap: 5rem;
   }
 }
 
